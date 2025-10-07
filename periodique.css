@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.titre{
+    text-align: center;
+}
+
+div.tableau{
+  display: grid;
+  grid-template-columns: repeat(19, 4%);
+  gap: 0.5%;
+}
+
+.nonMetauxReactif{
+    background-color: #e2eeff; 
+    color: #5a6df0;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.metauxAlcalins{
+    background-color: #d8f8ff; 
+    color: #0579ac;   
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.metauxAlcalinoTerreux{
+    background-color: #ffe7e7;
+    color: #d70854;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.metauxTransition{
+    background-color: #f3e8fd;
+    color: #6638f1;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.lanthanides{
+    background-color: #dff3ff;
+    color: #25365c;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.actinides{
+    background-color: #ffe6d4;
+    color: #c73200;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.proprietesInconnues{
+    background-color: #e7e7ea;
+    color: #3f3768;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.metalloides{
+    background-color: #fef7e0;
+    color: #c17300;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.metauxPostTransition{
+    background-color: #d6f9e8;
+    color: #002c52;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.gazNobles{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+div.numero{ 
+    font-size: 1em;
+    font-weight:bold;
+    padding-top: 2px;
+    text-align: left;
+}
+
+div.symbole{ 
+    font-size: 2em; 
+    font-weight: bold; 
+    padding-left: 2px; 
+    text-align: center; 
+} 
+
+div.masse{
+    font-size: 1em; 
+    font-weight:bold; 
+    padding-top: 2px; 
+    text-align: right;
+}
+
+li{
+    display: inline;
+    font-size: 1.406em;
+}
+
+img.science{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 10%;
+}
+
+img.tux{
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 600px){
+    body{
+        font-size: 0.43em;
+    }
+}
